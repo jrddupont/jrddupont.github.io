@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Olla Pot Irrigation Test"
+date:   2023-09-18 12:00:00 -0500
+categories: jekyll update
+---
+
+![][image-1]  
+
+I have been interested in using [olla pots](https://en.wikipedia.org/wiki/Olla#Use_in_irrigation) for some time so I decided to make these as a small test. I planted them with some creeping shrubs in my front lawn but the pots I used were very low quality and drain quite quickly. I am not sure where exactly is the best place to use them but I plan to experiment further. 
+
+Tools Used:
+ - Caulk Gun
+
+[image-1]: /assets/image/2023-09-18-olla-pots/image1.jpg
