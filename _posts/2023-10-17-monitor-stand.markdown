@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monitor Stand"
-date:   2023-10-11 12:00:00 -0500
+date:   2023-10-17 12:00:00 -0500
 categories: jekyll update
 ---
 
