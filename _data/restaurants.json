@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Chimborazo",
+    "cuisine": "Ecuadorian",
+    "description": "Small spot serving Ecuadorian & Andean foods with beer & wine amid traditional decor with textiles.",
+    "address": "2851 Central Ave NE, Minneapolis, MN 55418",
+    "lat": 45.0357411,
+    "lng": -93.2471945,
+    "visits": [
+      {"cost": 88.66, "people": 2}
+    ]
+  },
+  {
+    "name": "Gai Noi",
+    "cuisine": "Laotian",
+    "description": "A Laotian restaurant in the heart of the Loring Park neighborhood by Chef Ann Ahmed.",
+    "address": "1610 Harmon Pl, Minneapolis, MN 55403",
+    "lat": 44.9715688,
+    "lng": -93.2854284,
+    "visits": [
+      {"cost": 180.6, "people": 2}
+    ]
+  },
+  {
+    "name": "The Block",
+    "cuisine": "American",
+    "description": "Homestyle fare and healthy bowls served in a laid-back locale with booths and a patio.",
+    "address": "7007 Walker St, St Louis Park, MN 55426",
+    "lat": 44.9386975,
+    "lng": -93.3657477,
+    "visits": [
+      {"cost": 99.79, "people": 2},
+      {"cost": 49.51, "people": 2},
+      {"cost": 196.83, "people": 2}
+    ]
+  },
+  {
+    "name": "Noma Hi-Fi",
+    "cuisine": "American",
+    "description": "Hard to find underground bar with good drinks and food.",
+    "address": "3916 W 50th St, Edina, MN 55424",
+    "lat": 44.9128158,
+    "lng": -93.3296885,
+    "visits": [
+      {"cost": 157.71, "people": 2}
+    ]
+  },
+  {
+    "name": "Porzana",
+    "cuisine": "Argentinian",
+    "description": "A modern-Argentinian steakhouse, featuring all prime beef ranging 100% grass fed to A5 wagyu.",
+    "address": "200 N 1st St, Minneapolis, MN 55401",
+    "lat": 44.985617,
+    "lng": -93.2690425,
+    "visits": [
+      {"cost": 100.0, "people": 1}
+    ]
+  },
+  {
+    "name": "Kado no Mise",
+    "cuisine": "Japanese",
+    "description": "Elevated takes on classic Japanese cuisine & sushi, plus cocktails, served in modern surrounds.",
+    "address": "33 N 1st Ave, Minneapolis, MN 55401",
+    "lat": 44.9810248,
+    "lng": -93.2728582,
+    "visits": [
+      {"cost": 100.0, "people": 1}
+    ]
+  },
+  {
+    "name": "Rosalia Pizza",
+    "cuisine": "Pizza",
+    "description": "Upscale pizza and drinks.",
+    "address": "8028 Minnetonka Blvd, St Louis Park, MN 55426",
+    "lat": 44.9498759,
+    "lng": -93.3819852,
+    "visits": [
+      {"cost": 123.31, "people": 2}
+    ]
+  },
+  {
+    "name": "Colita",
+    "cuisine": "Oaxacan",
+    "description": "Modernized Mexican eatery specializing in housemade moles, BBQ from around the world & cocktails.",
+    "address": "5400 Penn Ave S, Minneapolis, MN 55419",
+    "lat": 44.9048805,
+    "lng": -93.3090257,
+    "visits": [
+      {"cost": 62.0, "people": 1}
+    ]
+  }
+]

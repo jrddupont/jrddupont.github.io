@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<script>
+  const RESTAURANTS = {{ site.data.restaurants | jsonify }};
+</script>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="filters">
+      <div class="filter-section">
+        <span class="filter-label">Price per person</span>
+        <div class="price-slider-wrap">
+          <div class="price-values">
+            <span id="price-min-label">$0</span>
+            <span id="price-max-label">$100</span>
+          </div>
+          <div class="range-wrap">
+            <div class="range-track">
+              <div class="range-fill" id="range-fill"></div>
+            </div>
+            <input type="range" class="price-range" id="price-min" min="0" max="100" value="0" step="1" />
+            <input type="range" class="price-range" id="price-max" min="0" max="100" value="100" step="1" />
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <span class="filter-label">Cuisine</span>
+        <div id="cuisine-filters" class="cuisine-filters"></div>
+      </div>
+    </div>
+
+    <div class="list-meta">
+      <span id="list-count"></span>
+    </div>
+
+    <div id="restaurant-list" class="restaurant-list"></div>
+  </aside>
+
+  <main class="map-wrap">
+    <div id="map"></div>
+  </main>
+</div>
