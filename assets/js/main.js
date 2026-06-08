@@ -11,13 +11,14 @@ let activeCuisines = new Set();
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function avgCost(r) {
+  if (!r.visits || r.visits.length === 0) return null;
   const totalCost   = r.visits.reduce((s, v) => s + v.cost,   0);
   const totalPeople = r.visits.reduce((s, v) => s + v.people, 0);
   return totalCost / totalPeople;
 }
 
 function formatPrice(p) {
-  return '$' + p.toFixed(0);
+  return p == null ? '—' : '$' + p.toFixed(0);
 }
 
 // ── Filter logic ──────────────────────────────────────────────────────────────
@@ -26,9 +27,8 @@ function getVisible() {
   return RESTAURANTS.filter(r => {
     if (r.lat == null || r.lng == null) return false;
     const price = avgCost(r);
-    return price >= priceMin
-        && price <= priceMax
-        && activeCuisines.has(r.cuisine);
+    const priceOk = price == null || (price >= priceMin && price <= priceMax);
+    return priceOk && activeCuisines.has(r.cuisine);
   });
 }
 
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
   RESTAURANTS.forEach((r, i) => r._id = i);
 
   // Compute max price from data, rounded up to nearest $5
-  const computedMax = Math.max(...RESTAURANTS.map(avgCost));
+  const computedMax = Math.max(...RESTAURANTS.map(avgCost).filter(p => p != null));
   maxPrice = Math.ceil(computedMax / 5) * 5 + 5;
 
   initMap();

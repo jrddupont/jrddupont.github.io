@@ -79,6 +79,13 @@
     ]
   },
   {
+    "name": "Samarkand Restaurant",
+    "cuisine": "Uzbek",
+    "description": "Cozy Central Asian restaurant in Plymouth with warm atmosphere and a menu of traditional Uzbek dishes.",
+    "address": "20 Nathan LN N, Plymouth, MN 55441",
+    "visits": []
+  },
+  {
     "name": "Colita",
     "cuisine": "Oaxacan",
     "description": "Modernized Mexican eatery specializing in housemade moles, BBQ from around the world & cocktails.",
